@@ -1,0 +1,62 @@
+.topNav {
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    color:bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.topNav a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.topNav a:hover {
+    background-color: rgb(45, 4, 196);
+    color: bisque;
+}
+
+.currentPage {
+    background-color: rgb(5, 147, 172);
+    color: white;
+}
+
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.mainImg {
+    height: 200px;
+    max-width: 350px;
+}
+
+.mainSideBar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.box {
+    min-height: 100px;
+    box-shadow: 0px 0px 10px grey inset;
+    background-color: blueviolet;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content:baseline;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footerImage {
+    height: 75px;
+
+}

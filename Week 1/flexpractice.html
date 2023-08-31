@@ -32,15 +32,20 @@
 
 .redBox {
     background-color: red;
-    margin: 5px;
+    margin: 2px;
     min-height: 125px;
-    width: 35%;
 }
 
 .headFoot {
     background-color: black;
+    height: 50px;
+    line-height: 50ox;
     text-align: center;
     color: azure;
+}
+
+.mainContainer {
+
 }
 
 </style>
@@ -49,18 +54,20 @@
     <header class="headFoot">
         HEADER
     </header>
-    <div class="blueContainer">
+    <div class="mainContainer">
+    <main class="blueContainer">
         <div class="blueBox" style="order: 1">1</div>
         <div class="blueBox" style="order: 3">2</div>
         <div class="blueBox" style="order: 6">3</div>
         <div class="blueBox" style="order: 5">4</div>
         <div class="blueBox" style="order: 4">5</div>
         <div class="blueBox" style="order: 2">6</div>
-    </div>
-    <div class="redContainer">
+    </main>
+    <aside class="redContainer">
         <div class="redBox" style="order: 3">1</div>
         <div class="redBox" style="order: 1">2</div>
         <div class="redBox" style="order: 2">3</div>
+    </aside>
     </div>
     <footer class="headFoot">
         FOOTER
