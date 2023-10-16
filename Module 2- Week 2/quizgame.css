@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.div1 {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.buttons {
+  background-color: darkcyan;
+  border-style: solid 2px black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}

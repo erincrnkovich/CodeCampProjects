@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="quizgame.css" />
+</head>
+<body>
+    <script src="./quizgame.js"></script>
+    <h1>Big Fat Quiz of Random Knowledge I Googled</h1>
+<div class="div1">
+    <button class="buttons" onclick="hideButton(this)">Let's Play!</button>
+</div>
+<div class="quizAndButton">
+<div class="questionBox" id="question1">
+    <p>Question One: What is the national animal of Scotland?</p>
+    <form>
+        <input type="radio" id="pony" name="answer1" value="wrong">
+        <label for="pony">Shetland Pony</label><br>
+        <input type="radio" id="lochNess" name="answer1" value="wrong">
+        <label for="lochNess">Loch Ness Monster</label><br>
+        <input type="radio" id="unicorn" name="answer1" value="right">
+        <label for="unicorn">Unicorn</label><br>
+        <input type="radio" id="badger" name="answer1" value="wrong">
+        <label for="badger">Badger</label>
+        </form><br>
+<div class="questionBox" id="question2">
+    <p>Question Two: What is the smallest country in the world?</p>
+    <form>
+        <input type="radio" id="manila" name="answer2" value="wrong">
+        <label for="manila">Manila</label><br>
+        <input type="radio" id="luxembourg" name="answer2" value="wrong">
+        <label for="luxembourg">Luxembourg</label><br>
+        <input type="radio" id="vatican" name="answer2" value="right">
+        <label for="vatican">Vatican</label>
+    </form><br>
+</div>
+<div class="questionBox" id="question3">
+<p>Question Three: Which "Golden Girls" actor was the youngest of the group?</p>
+    <form>
+        <input type="radio" id="estelle" name="answer3" value="right">
+        <label for="estelle">Estelle Getty ("Sophia")</label><br>
+        <input type="radio" id="bea" name="answer3" value="wrong">
+        <label for="bea">Bea Arthur ("Dorothy")</label><br>
+        <input type="radio" id="Rue" name="answer3" value="wrong">
+        <label for="Rue">Rue McClanahan ("Blanche")</label><br>
+        <input type="radio" id="betty" name="answer3" value="wrong">
+        <label for="betty">Betty White ("Rose")</label>
+    </form><br>
+    </div>
+    <div class="questionBox" id="question4"></div>
+    <p>Question Four: What is the name for a group of flamingoes?</p>
+    <form>
+        <input type="radio" id="murder" name="answer4" value="wrong">
+        <label for="murder">Murder</label><br>
+        <input type="radio" id="flock" name="answer4" value="wrong">
+        <label for="flock">Flock</label><br>
+        <input type="radio" id="flight" name="answer4" value="wrong">
+        <label for="flight">Flight</label><br>
+        <input type="radio" id="flamboyance" name="answer4" value="right">
+        <label for="flamboyance">Flamboyance</label>
+    </form><br>
+    </div>
+    <div class="questionBox" id="question5"></div>
+    <p>Question Five: Where do kiwi fruits originally come from?</p>
+    <form>
+        <input type="radio" id="newzealand" name="answer5" value="wrong">
+        <label for="newzealand">New Zealand</label><br>
+        <input type="radio" id="china" name="answer5" value="right">
+        <label for="china">China</label><br>
+        <input type="radio" id="nepal" name="answer5" value="wrong">
+        <label for="nepal">Nepal</label><br>
+        <input type="radio" id="puertorico" name="answer5" value="wrong">
+        <label for="puertorico">Puerto Rico</label>
+    </form><br>
+    </div>
+    <div class="questionBox" id="question6"></div>
+    <p>Question Six: What is the largest organ of the human body?</p>
+    <form>
+        <input type="radio" id="brain" name="answer6" value="wrong">
+        <label for="brain">Brain</label><br>
+        <input type="radio" id="skin" name="answer6" value="right">
+        <label for="skin">Skin</label><br>
+        <input type="radio" id="spleen" name="answer6" value="wrong">
+        <label for="spleen">Spleen</label><br>
+        <input type="radio" id="lungs" name="answer6" value="wrong">
+        <label for="lungs">Lungs</label>
+    </form><br>
+    </div>
+    <div class="questionBox" id="question7"></div>
+    <p>Question Seven: Iceland diverted roads to avoid disturbing communities of what?</p>
+    <form>
+        <input type="radio" id="wolves" name="answer7" value="wrong">
+        <label for="wolves">Wolves</label><br>
+        <input type="radio" id="locusts" name="answer7" value="wrong">
+        <label for="locusts">Flesh-Eating Locusts</label><br>
+        <input type="radio" id="bears" name="answer7" value="wrong">
+        <label for="bears">Bears</label><br>
+        <input type="radio" id="elves" name="answer7" value="right">
+        <label for="elves">Elves</label>
+    </form><br>
+    </div>
+    <div class="questionBox" id="question8"></div>
+    <p>Question Eight: Who famously crossed the Alps with elephants on the way to war with the Romans?</p>
+    <form>
+        <input type="radio" id="hannibal" name="answer8" value="right">
+        <label for="hannibal">Hannibal</label><br>
+        <input type="radio" id="jason" name="answer8" value="wrong">
+        <label for="jason">Jason</label><br>
+        <input type="radio" id="freddy" name="answer8" value="wrong">
+        <label for="freddy">Freddy</label><br>
+        <input type="radio" id="norman" name="answer8" value="wrong">
+        <label for="norman">Norman</label>
+    </form><br>
+    </div>
+    <div class="questionBox" id="question9"></div>
+    <p>Question Nine: What company was originally called "Cadabra"</p>
+    <form>
+        <input type="radio" id="google" name="answer9" value="wrong">
+        <label for="google">Google</label><br>
+        <input type="radio" id="mozilla" name="answer9" value="wrong">
+        <label for="mozilla">Mozilla</label><br>
+        <input type="radio" id="amazon" name="answer9" value="right">
+        <label for="amazon">Amazon</label><br>
+        <input type="radio" id="abra" name="answer9" value="wrong">
+        <label for="abra">Abra</label>
+    </form><br>
+    </div>
+    <div class="questionBox" id="question10"></div>
+    <p>Question Ten: What country drinks the most coffee per capita? </p>
+    <form>
+        <input type="radio" id="finland" name="answer10" value="right">
+        <label for="finland">Finland</label><br>
+        <input type="radio" id="colombia" name="answer10" value="wrong">
+        <label for="colombia">Colombia</label><br>
+        <input type="radio" id="italy" name="answer10" value="wrong">
+        <label for="italy">Italy</label><br>
+        <input type="radio" id="unitedstates" name="answer10" value="wrong">
+        <label for="unitedstates">United States</label>
+    </form><br>
+    </div>
+<div class="div1">
+<button class="buttons" onclick="return getResults();" id="submit">Submit</button>
+</div>
+</div>
+</body>
+</html>
